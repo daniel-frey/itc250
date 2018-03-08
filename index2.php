@@ -5,10 +5,13 @@
             <div id="scramble"></div>
             <a href="1.php" target=_blank><span id="charsCustom1"></span></a><br>
             <a href="2.php" target=_blank><span id="charsCustom2"></span></a><br>
-            <a href="3.php" target=_blank><span id="charsCustom3"></span></a>
-            <span id="charsNumbers"></span><br>
-            <span id="charsUppercase"></span>
-            <span id="charsLowercase"></span>
+            <a href="3.php" target=_blank><span id="charsCustom3"></span></a><br>
+            <a href="4.php" target=_blank><span id="charsCustom4"></span></a><br>
+            <a href="5.php" target=_blank><span id="charsCustom5"></span></a><br>
+            <a href="6.php" target=_blank><span id="charsCustom6"></span></a><br>
+            <a href="7.php" target=_blank><span id="charsCustom7"></span></a><br>
+            <a href="8.php" target=_blank><span id="charsCustom8"></span></a><br>
+            <a href="9.php" target=_blank><span id="charsCustom9"></span></a><br>
             <div id="newClass"></div>
         </div>
     </div>
@@ -39,7 +42,7 @@
 
             .to("#charsCustom2", 4, {
                 scrambleText: {
-                    text: "Technology",
+                    text: "Local",
                     chars: "lowercase",
                     revealDelay: 0.5,
                     tweenLength: false,
@@ -51,6 +54,72 @@
             .to("#charsCustom3", 4, {
                 scrambleText: {
                     text: "National",
+                    chars: "lowercase",
+                    revealDelay: 0.5,
+                    tweenLength: false,
+                    revaelDelay: 0.5,
+                    ease: Linear.easeNone
+                }
+            })
+        
+            .to("#charsCustom4", 4, {
+                scrambleText: {
+                    text: "Technology",
+                    chars: "lowercase",
+                    revealDelay: 0.5,
+                    tweenLength: false,
+                    revaelDelay: 0.5,
+                    ease: Linear.easeNone
+                }
+            })
+        
+            .to("#charsCustom5", 4, {
+                scrambleText: {
+                    text: "Health",
+                    chars: "lowercase",
+                    revealDelay: 0.5,
+                    tweenLength: false,
+                    revaelDelay: 0.5,
+                    ease: Linear.easeNone
+                }
+            })
+
+            .to("#charsCustom6", 4, {
+                scrambleText: {
+                    text: "Business",
+                    chars: "lowercase",
+                    revealDelay: 0.5,
+                    tweenLength: false,
+                    revaelDelay: 0.5,
+                    ease: Linear.easeNone
+                }
+            })
+
+            .to("#charsCustom7", 4, {
+                scrambleText: {
+                    text: "Sports",
+                    chars: "lowercase",
+                    revealDelay: 0.5,
+                    tweenLength: false,
+                    revaelDelay: 0.5,
+                    ease: Linear.easeNone
+                }
+            })
+
+            .to("#charsCustom8", 4, {
+                scrambleText: {
+                    text: "Science",
+                    chars: "lowercase",
+                    revealDelay: 0.5,
+                    tweenLength: false,
+                    revaelDelay: 0.5,
+                    ease: Linear.easeNone
+                }
+            })
+
+            .to("#charsCustom9", 4, {
+                scrambleText: {
+                    text: "Entertainment",
                     chars: "lowercase",
                     revealDelay: 0.5,
                     tweenLength: false,
